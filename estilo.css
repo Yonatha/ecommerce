@@ -27,6 +27,29 @@
     color: #ffffff;
     padding: 15px;
     height: 70px;
+    position: relative;
+  }
+
+  .header #logo {
+    position: absolute;
+    top: 0;
+  }
+
+  .header nav {
+    position: absolute;
+    right: 100px;
+    top: 28px;
+  }
+
+  .header nav a{
+    color: orangered;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 50px;
+  }
+
+  .header nav a:hover{
+    color: #ffffff;
   }
 
   .menu ul {
@@ -57,11 +80,12 @@
   }
 
   .footer {
-    background-color: #0099cc;
+    background-color: #000000;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
     padding: 15px;
+    height: 540px;
   }
 
   /* For mobile phones: */
@@ -181,6 +205,10 @@
   #carousel {
       height: 550px;
       background: #C3E6EA;
+  }
+
+  #carousel img {
+    margin-left: 184px;
   }
 
 #customer-contact {
