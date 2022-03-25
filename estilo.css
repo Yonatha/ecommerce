@@ -244,7 +244,6 @@ section#trending #menu-trending-category a{
     text-decoration: none;
 }
 
-
 section#trending #menu-trending-category a:hover{
     color: orangered;
 }
@@ -253,16 +252,15 @@ section#feed-produtos {
   width: 100%;
   height: 400px;
   margin-top: 45px;
-  margin-bottom: 88px;
   display: flex;
-  gap: 75px;
+  gap: 22px;
+  justify-content: center;
 }
 
 section#feed-produtos div{
   width: 258px;
   height: 398px;
 }
-
 
 section#feed-produtos .nome{
   font-size: 14px;
@@ -278,4 +276,43 @@ section#feed-produtos .nome{
 section#feed-produtos .preco{
   font-size: 16px;
   color: #E27F54;
+}
+
+#destaques {
+  width: 100%;
+  height: 565px;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#destaques div{
+  width: 100px;
+  height: 100px;
+}
+
+#destaques .prod-1{
+  width: 545px;
+  height: 556px;
+}
+
+#destaques .prod-2{
+  width: 543px;
+  height: 256px;
+}
+
+#destaques .prod-3,
+#destaques .prod-4
+{
+  width: 260px;
+  height: 270px;
+}
+
+#destaques .coluna {
+  flex-wrap: wrap;
+  gap: 22px;
+  display: flex;
+  width: 543px;
+  height: 565px;
 }
