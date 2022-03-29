@@ -142,10 +142,36 @@
 
     .col-s-12 {
       width: 100%;
-      background: #0099cc;
-    }
-  }
+      background:white;
+      font-size: 16px; 
+      border: 2px solid;
+      border-color: #C4C4C4;
 
+    }
+
+    .col-s-12 h1 {
+      font-size: 16px; 
+      display:inline-block;
+      vertical-align: top;
+    }
+    .col-s-12 h2 {
+      font-size: 9px; 
+      display:inline-block;
+     
+    }
+
+    .col-s-12 img {
+      width: 37px;
+      left: 37px;
+      top: 50%;
+      transform: translateY(50%);
+      display:inline-block;
+      vertical-align:super;
+
+    }
+
+
+  }
   @media only screen and (min-width: 768px) {
 
     /* For desktop: */
@@ -161,7 +187,34 @@
 
     .col-3 {
       width: 25%;
-      background: green;
+      background: white;
+      border: 2px solid;
+      border-color: #C4C4C4;
+      top: 50%;
+      transform: translateY(50%);
+  
+      
+    }
+
+    .col-3 h1 {
+      font-size: 16px; 
+      font-family: roboto;
+      
+      
+    }
+
+    .col-3 h2 {
+      font-size: 9px; 
+      font-family: roboto;
+     
+    }
+
+    .col-3 img {
+      width: 37px;
+      left: 37px;
+
+    }
+
     }
 
     .col-4 {
@@ -200,7 +253,6 @@
     .col-12 {
       width: 100%;
     }
-  }
 
   #carousel {
       height: 550px;
