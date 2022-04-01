@@ -388,4 +388,43 @@ position: absolute;
 section#blog .content div {
 width: 357px;
 height: 489px;
-margin-top: 76px;}
+margin-top: 76px;
+}
+
+#blog h4 {
+  margin-top: 23px;
+}
+
+#blog span {
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+#blog p {
+  font-size: 15px;
+  margin-top: 8px;
+  text-align: justify;
+}
+
+#blog a {
+  color: #E27F54;
+  text-decoration: none;
+}
+
+#logomarcas {
+  width: 100%;
+  height: 131px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#logomarcas .content{
+  width: 1149px;
+  height: 131px;
+}
+
+#logomarcas .content img{
+  margin-left: 40px;
+}
